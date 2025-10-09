@@ -89,7 +89,7 @@ const TeamMessagingApp = () => {
   ];
 
   return (
-    <div className="flex h-screen bg-gray-50">
+    <div className="flex h-screen w-full bg-gray-50">
       {/* Conversations List */}
       <div className="w-80 bg-white border-r border-gray-200 flex flex-col">
         <div className="p-4 border-b border-gray-200">
@@ -160,7 +160,7 @@ const TeamMessagingApp = () => {
       </div>
 
       {/* Main Chat Area */}
-      <div className="flex-1 flex flex-col">
+      <div className="flex w-full flex-col">
         {/* Chat Header */}
         <div className="h-16 bg-white border-b border-gray-200 px-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
