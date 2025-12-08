@@ -1,10 +1,9 @@
-'use client'
 import Messages from "../_components/Messages";
 import Chat from "../_components/Chat";
 import { useAppStore } from "../../store/useAppStore";
 
 export default function Home() {
-  // Use Zustand store
+  // Use Zustand store lololol
   const { 
     users,
     selectedUserIndex, 
